@@ -17,6 +17,7 @@
 
         <!-- 指定所引入第三方库的版本 -->
         <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+        <graphql.version>5.0.2</graphql.version>
     </properties>
 
     <!-- 依赖管理 -->
@@ -35,6 +36,13 @@
 
     <!-- 引入依赖 -->
     <dependencies>
+        <!-- graphql -->
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-spring-boot-starter</artifactId>
+            <version>${graphql.version}</version>
+        </dependency>
+
         <!-- web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
