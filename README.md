@@ -21,8 +21,9 @@
 
 <a id="2"></a>
 ## 2. 使用
+* 建议安装插件：https://plugins.jetbrains.com/plugin/8097-js-graphql
 * 启动后，打开以下网址测试
-* http://localhost:8083
+* http://localhost:8083/graphiql
 
 <a id="3"></a>
 ## 3. 相关项目

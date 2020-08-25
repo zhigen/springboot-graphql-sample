@@ -18,7 +18,7 @@
         <!-- 指定所引入第三方库的版本 -->
         <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
         <graphql.version>5.0.2</graphql.version>
-        <graphql.tools.version>5.2.3</graphql.tools.version>
+        <graphql.tools.version>5.2.4</graphql.tools.version>
     </properties>
 
     <!-- 依赖管理 -->

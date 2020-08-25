@@ -1,0 +1,7 @@
+type Query {
+    findUsers: [User]
+    findUser(id: Int): User
+
+    findUserInfos: [UserInfo]
+    findUserInfo(id: Int): UserInfo
+}

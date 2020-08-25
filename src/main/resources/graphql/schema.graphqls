@@ -1,0 +1,11 @@
+type User {
+    id: Int
+    name: String
+    userInfo: UserInfo
+}
+
+type UserInfo {
+    id: Int
+    userId: Int
+    phone: String
+}
